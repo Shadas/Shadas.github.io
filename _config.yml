@@ -1,7 +1,7 @@
 # Site settings
 name: Less Or More
 email: zhyj2266680@163.com
-author: Freud Kang
+author: Shadas
 url: http://www.hifreud.com
 resume_site: http://www.hifreud.com/Resume.io/
 github: https://github.com/shadas/
@@ -26,10 +26,10 @@ markdown: kramdown
 FB:
   comments :
     provider : duoshuo
-    duoshuo:
-        short_name : luoyan35714
-    disqus :
-        short_name : freudkang
+    #duoshuo:
+    #    short_name : luoyan35714
+    #disqus :
+    #    short_name : freudkang
     # facebook :
     #   appid : 123
     #   num_posts: 5

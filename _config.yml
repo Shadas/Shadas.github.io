@@ -24,7 +24,7 @@ highlighter: Pygments
 markdown: kramdown
 
 FB:
-  comments :
+  #comments :
     #provider : duoshuo
     #duoshuo:
     #    short_name : luoyan35714

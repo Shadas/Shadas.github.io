@@ -23,6 +23,9 @@ highlighter: Pygments
 # Build settings
 markdown: kramdown
 
+page:
+    comments: false
+
 #FB:
   #comments :
     #provider : duoshuo

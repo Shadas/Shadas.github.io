@@ -2,7 +2,7 @@
 name: Less Or More
 email: zhyj2266680@163.com
 author: Shadas
-url: http://www.hifreud.com
+url: http://shadas.me
 resume_site: http://www.hifreud.com/Resume.io/
 github: https://github.com/shadas/
 baseurl: /shadas.github.io
@@ -30,7 +30,7 @@ FB:
   comments :
     provider : duoshuo
     duoshuo:
-       short_name : shadas
+       short_name : Shadas
     # disqus :
     #    short_name : freudkang
     # facebook :

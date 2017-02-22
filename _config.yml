@@ -26,12 +26,12 @@ markdown: kramdown
 page:
     comments: false
 
-#FB:
-  #comments :
-    #provider : duoshuo
-    #duoshuo:
-    #    short_name : luoyan35714
-    #disqus :
+FB:
+  comments :
+    provider : duoshuo
+    duoshuo:
+       short_name : shadas
+    # disqus :
     #    short_name : freudkang
     # facebook :
     #   appid : 123

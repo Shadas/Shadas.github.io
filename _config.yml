@@ -1,38 +1,101 @@
 # Site settings
-name: NovoLand
-email: zhyj2266680@163.com
-author: Shadas
-url: https://shadas.github.io
-resume_site: https://shadas.github.io
-github: https://github.com/shadas/
-baseurl: 
-description: 多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会想起父亲带他见识冰块的那个遥远的下午。
-meta_description: 雨天背锅，背锅。
-motto: 翌年春，稷宫的梨花再次盛开，洁白如雪。
-banner: 学而不思则罔，思而不学则殆。
+title: Yuejia Blog
+SEOTitle: Yuejia Blog
+header-img: img/home-bg.jpeg
+email: shadas.zhao@gmail.com
+description: "a golang programmer"
+keyword: ""
+url: "http://emilyxiner.xin"              # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
-#permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
-paginate: 10
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-github_username: shadas
-highlighter: Pygments
+# SNS settings
+# RSS: false
+# weibo_username:     3243136023
+github_username:    shadas
+# twitter_username:   MingfeiP
+# facebook_username:  mingfei.pan.3
+
+
 
 # Build settings
-markdown: kramdown
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
-FB:
-  comments :
-    provider : duoshuo
-    duoshuo:
-       short_name : Shadas
-    # disqus :
-    #    short_name : freudkang
-    # facebook :
-    #   appid : 123
-    #   num_posts: 5
-    #   width: 580
-    #   colorscheme: light
-theme: jekyll-theme-cayman
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+# duoshuo_username: blackjar
+# Share component is depend on Comment so we can NOT use share only.
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+# github issue
+# github_issue: true
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 
+# Google Analytics
+ga_track_id: ''            # Format: UA-xxxxxx-xx
+ga_domain: 
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "oh my dog"
+sidebar-avatar: /img/avatar.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "Yuejia Blog",
+        href: "http://emilyxiner.xin"
+    }
+    # },{
+    #     title: "Foo",
+    #     href: "#"
+    # },{
+    #     title: "Bar",
+    #     href: "#"
+    # },{
+    #     title: "Example Friends",
+    #     href: "#"
+    # },{
+    #     title: "It helps SEO",
+    #     href: "#"
+    # }
+]
